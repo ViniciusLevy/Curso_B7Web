@@ -1,0 +1,239 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    height: 100vh;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    height: 120px;
+}
+
+.container{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1440px;
+    margin: 0 20px 0 20px;   
+}
+
+.logoEspc{
+    width:200px;
+    height: auto;
+}
+
+.socialMedia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    margin: 0;
+}
+
+.facebook,
+.instagram,
+.twitter,
+.youtube,
+.spotify{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;    
+}
+
+.youtubeMargin{
+    margin: 5px;
+}
+
+.menu nav li{
+    display:inline-block;
+    margin: 0 0 0 10px;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+}
+
+.menu nav a{
+    text-decoration: none;
+    color:#292626;
+}
+
+.menu audio {
+   width: 200px;
+   height: 20px;
+   
+}
+
+.bgimage{
+    display: flex;
+    justify-content: center;
+}
+
+.bgimage .image .tenacius-image{
+    width: 1440px;
+    height: auto;
+
+    border-radius: 8px;
+    
+}
+
+.title{
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+
+    margin: 5px;
+}
+
+.history-section{
+    display: flex;
+    justify-content: center;
+}
+
+
+.history-section .history .history-video-title-text{
+    display: flex;
+    justify-content: center;
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center;
+
+    margin: 0 10px 10px 10px;
+}
+
+.history-section .history .history-video, 
+iframe{
+    display: flex;
+    justify-content: center;
+    border-radius: 8px;
+}
+
+
+.history-section .history .history-text p{
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    text-align: justify;
+    padding: 5px;
+    margin: 15px;
+    justify-content: center;
+
+    width: 1440px;
+}
+
+.albuns-section{
+    display: flex;
+    flex-direction: column;
+}
+
+.albuns-section .albuns-title{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px; 
+}
+
+.albuns-section .albuns{
+    display: flex;
+    margin:auto;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 1440px;   
+}
+
+.albuns-section .albuns img{
+    width: 398.33px;
+    height: 398.33px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px; 
+}
+
+.movie-section .movie-title{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px; 
+}
+.movie-section .media{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    width: 1440px;    
+}
+
+.movie-section{
+    margin-top: 20px;
+}
+.movie-section .serie{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 30px;
+}
+.movie-section .serie img{
+    border-radius: 8px;
+    width: 300px;
+    height: 400px;
+    margin-right: 80px;
+}
+.movie-section .serie p{
+    width: 400px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    text-align: justify;
+    margin-top: 0px;
+    margin-bottom: 25px;
+}
+
+.movie-section .movie{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 30px;
+}
+.movie-section .movie img{
+    border-radius: 8px;
+    width: 300px;
+    height: 400px;
+    margin-right: 80px;
+}
+.movie-section .movie p{
+    width: 400px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    text-align: justify;
+    margin-top: 0px;
+    margin-bottom: 25px;
+}
+
+.footer{
+    margin: auto;
+    width: 1440px;
+    height: 100px;
+}
+.footer h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    text-align: center;
+}
+.footer p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    text-align: center;
+}
